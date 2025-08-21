@@ -17,7 +17,7 @@ client.on('clientReady', ()=>{
     console.log('Charged and Ready!')
 })
 //Just tells us the bot is online
-//
+
 const inference = new InferenceClient(hf_token);
 
 async function getGPTResponse(message){
